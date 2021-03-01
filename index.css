@@ -1,0 +1,105 @@
+@import 'normalize.css';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin-top: 4em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+.form {
+    width: 33%;
+    padding: 2em;
+    font-weight: 500;
+    background-color: #CCDDE2;
+    border-radius: 20px;
+    margin: 0 1em;
+}
+
+input, select {
+    border: none;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin: 0.5em;
+    outline: 0;
+}
+
+input:focus, input:hover {
+    outline: none;
+    
+}
+
+.btn {
+    font-weight: 500;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #93A3BC;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: 0 1em;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+table thead tr {
+    background-color: #93A3BC;
+    color: #ffffff;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 12px 15px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #93A3BC;
+}
+
+table tbody tr.active-row {
+    font-weight: bold;
+    color: #93A3BC;
+}
+
+.btn-new {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    margin: 1.5em;
+    border: 2px solid #93A3BC;
+    text-decoration: none;
+    color: #93A3BC;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: #333c4b;
+    margin-left: 1em;
+}
